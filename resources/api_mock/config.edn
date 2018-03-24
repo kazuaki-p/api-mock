@@ -1,0 +1,17 @@
+{:duct.core/project-ns  api-mock
+ :duct.core/environment :production
+
+ :duct.module/logging {}
+ :duct.module.web/api {}
+
+ :duct.router/cascading
+ [#ig/ref :api-mock.handler/example]
+
+ :duct.middleware.web/defaults
+ {
+   :security {:anti-forgery false}
+   :params {:multipart true}
+   }
+
+ :api-mock.handler/example
+ {}}

@@ -1,0 +1,11 @@
+18-03-20 06:41:11 CA-065-no-iMac-2.local REPORT [duct.server.http.jetty:13] - :duct.server.http.jetty/starting-server {:port 3000}
+18-03-20 06:41:34 CA-065-no-iMac-2.local INFO [duct.middleware.web:16] - :duct.middleware.web/request {:request-method :get, :uri "/example", :query-string nil}
+18-03-20 06:41:34 CA-065-no-iMac-2.local INFO [duct.middleware.web:16] - :duct.middleware.web/request {:request-method :get, :uri "/favicon.ico", :query-string nil}
+18-03-20 07:09:33 CA-065-no-iMac-2.local REPORT [duct.server.http.jetty:21] - :duct.server.http.jetty/stopping-server
+18-03-20 07:09:33 CA-065-no-iMac-2.local REPORT [duct.server.http.jetty:13] - :duct.server.http.jetty/starting-server {:port 3000}
+18-03-20 07:09:38 CA-065-no-iMac-2.local INFO [duct.middleware.web:16] - :duct.middleware.web/request {:request-method :get, :uri "/example/a", :query-string nil}
+18-03-20 07:09:43 CA-065-no-iMac-2.local INFO [duct.middleware.web:16] - :duct.middleware.web/request {:request-method :get, :uri "/example", :query-string nil}
+18-03-20 07:09:59 CA-065-no-iMac-2.local INFO [duct.middleware.web:16] - :duct.middleware.web/request {:request-method :get, :uri "/example", :query-string nil}
+18-03-20 07:10:54 CA-065-no-iMac-2.local INFO [duct.middleware.web:16] - :duct.middleware.web/request {:request-method :get, :uri "/example/a", :query-string nil}
+18-03-20 07:10:57 CA-065-no-iMac-2.local INFO [duct.middleware.web:16] - :duct.middleware.web/request {:request-method :get, :uri "/example/b", :query-string nil}
+18-03-20 07:11:01 CA-065-no-iMac-2.local INFO [duct.middleware.web:16] - :duct.middleware.web/request {:request-method :get, :uri "/example", :query-string nil}
